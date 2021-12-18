@@ -1,0 +1,151 @@
+header {
+    width: 1350px;/*aumenta lado*/
+    height: 150px;
+    background: black;
+   
+    margin: 30px;
+    margin-top: -8px;
+    margin-left: -9px;
+
+    padding-top:15px;
+
+    border top: 12px;
+    border-left: 7px;
+}
+ 
+ /*imagem da logo*/
+
+img{
+width: 140px;
+height:120px;
+}
+
+/*links do cabeçalho*/
+
+a:hover { /* letra dos links quando o mouse passa em cima*/
+    background-color: none;
+    color: darkslategrey;
+}
+
+a:link { /* cor dos link*/
+    color: white;
+}
+
+a:visited { /*links ja abertos*/
+    color: #b53542;
+}
+
+a{
+    font-family: ebrima;
+}
+
+nav {
+    position: absolute;
+    top: 18px;
+    right: 9px;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+.lista-nav{
+    color: black;
+    text-decoration: none;
+
+    border-radius: 10px 20px;
+    border bottom: 90px;
+
+    display: inline-grid;
+    margin-top: 10px;
+
+    padding-bottom: auto;
+    padding:15px 80px;
+}
+
+h1{
+    background-color:#b53542;
+    color: white;
+
+    border-radius: 10px 20px;
+
+    margin-left: 25rem;
+
+    padding:15px 80px;
+
+    display: inline;
+}
+
+h2 {
+    font-family: "ebrima";
+    color: #b8830b;
+    font-size: 30px;
+
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+p{
+    font-family: "ebrima";
+    color: #000000;
+    font-size: 18px;
+
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+span{
+    color: #33673b;
+    font-size: 20px;
+}
+
+span-1{
+    color: red;
+    font-size: 20px;
+}
+
+span-2{
+    color: #FFEFD3;
+}
+
+.fundo-lista{
+    margin-left: 4rem;
+
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-color: #FFEFD3;
+
+    width: 900px;
+    padding:9px;
+}
+
+.lista-fc{
+    list-style-type: circle;
+
+    font-family: "ebrima";
+    color: #000000;
+    font-size: 18px;
+}
+
+footer{
+    width: 1397px;/*aumenta lado*/
+    height: 150px;
+    background: black;
+
+    margin-top:87px;
+    margin-bottom: -90rem;
+    margin-left: -56px;
+
+    border top: 9px;
+    border-left: 3px;
+}
+
+.a-rodape{
+    font-family: ebrima;
+    margin-left: 42rem;
+
+    padding-top: 3rem;
+}
