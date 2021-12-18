@@ -1,0 +1,274 @@
+ /*cabeçalho*/
+
+header {
+    width: 1350px;/*aumenta lado*/
+    height: 150px;
+    background: black;
+   
+    margin: 30px;
+    margin-top: -8px;
+    margin-left: -9px;
+
+    padding-top:15px;
+
+    border top: 12px;
+    border-left: 7px;
+}
+
+        /*nav*/
+
+nav {
+    position: absolute;
+    top: 18px;
+    right: px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 5px;
+}
+
+
+.lista-nav{
+    color: black;
+    text-decoration: none;
+
+    border-radius: 10px 20px;
+    border bottom: 90px;
+
+    display: inline-grid;
+    margin-top: 10px;
+    margin-left: 28px;
+
+    padding-bottom: auto;
+    padding:15px 80px;
+}
+
+    /* links do cabeçalho*/
+
+a:hover { /* letra dos links quando o mouse passa em cima*/
+    background-color: none;
+    color: white;
+}
+
+a:link { /* cor dos link*/
+    color: white;
+}
+
+a:visited { /*links ja abertos*/
+    color: #b53542;
+}
+
+a{
+    font-family: ebrima;
+}
+
+    /*imagem da logo*/
+
+img{
+width: 140px;
+height:120px;
+}
+
+ /* oque é treinamento funcional*/
+
+ .oqueetreinifuncional{
+    margin-left: 3rem;
+ }
+
+ .titulo1{
+    background-color:#b53542;
+    color: white;
+   
+    border bottom: 90px;
+    border-radius: 10px 20px;
+
+    margin-top: 15px;
+
+    padding:15px 80px;
+    padding-top:8,5px ;
+    padding-bottom: auto;
+
+    display: inline-grid;
+ }
+
+.texto-treino{
+    margin-left: 2rem;
+
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    width: 500px;
+    padding:9px;
+
+    font-family: "ebrima";
+    color: #000000;
+    font-size: 16px;
+ }
+
+/*Possíveis locais para o treinamento funcional*/
+
+ .titulo2{
+      color: white;
+     
+      margin-top: 1px;
+     
+      display: inline-grid;
+
+      padding:15px 80px;
+      padding-bottom: auto;
+      border bottom: 90px;
+      border-radius: 10px 20px;
+}
+
+.locais {
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.texto-locais {
+    margin-left: 5rem;
+
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    width: 500px;
+    padding:9px;
+
+    font-family: "ebrima";
+    color: #000000;
+    font-size: 16px;
+}
+
+    /*beneficios*/
+
+.beneficios {
+    margin-left: 2rem;
+}  
+
+.titulo3 {
+     background-color:#b53542;
+      color: white;
+
+      border-radius: 10px 20px;
+      border bottom: 90px;
+
+      margin-top: 10px;
+      text-decoration: overline underline;
+      display: inline-grid;
+
+      padding-top: ;
+      padding-bottom: auto;
+      padding:15px 80px;
+     
+}
+
+.lista-beneficios>li{
+    list-style-type: circle;
+
+    font-family: "ebrima";
+    color: #000000;
+    font-size: 16px;
+}
+
+
+.fundo-lista {
+    margin-left: 2rem;
+
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-color: #FFEFD3;
+
+    width: 500px;
+    padding:9px;
+}
+
+
+        /*dicas*/
+
+.dicas {
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.titulo4{
+    background-color:#b53542;
+    color: white;
+    border-radius: 10px 20px;
+    margin-top: 10px;
+    text-decoration:overline underline;
+    padding:15px 80px;
+    display: inline-grid;
+    padding-top: ;
+    padding-bottom: auto;
+    border bottom: 90px;
+    align-items: center;
+}
+
+
+.texto-dicas {
+    margin-left: 4rem;
+
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-color: #FFEFD3;
+
+    width: 500px;
+    padding:9px;
+
+    font-family: "ebrima";
+    color: #000000;
+    font-size: 16px;
+}
+
+
+        /*textos*/
+
+
+h1{
+   background-color:#b53542;
+      color: white;
+      border-radius: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      padding:15px 80px;
+      display: inline-grid;
+      padding-top: ;
+      padding-bottom: auto;
+      border bottom: 90px;
+}
+
+h2{
+    background-color: #b53542;
+    padding-bottom:9px ;
+    margin-left: 1px;
+    margin-top: 100%;
+}
+
+    /*Rodapé*/
+
+footer{
+    width: 1396px;/*aumenta lado*/
+    height: 150px;
+    background: black;
+
+    margin-top:87px;
+    margin-bottom: -90rem;
+    margin-left: -56px;
+
+    border top: 9px;
+    border-left: 3px;
+}
+
+.a-rodape{
+    font-family: ebrima;
+    margin-left: 42rem;
+
+    padding-top: 3rem;
+}
