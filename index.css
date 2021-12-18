@@ -254,7 +254,7 @@ h2{
     /*Rodapé*/
 
 footer{
-    width:  20000px;/*aumenta lado*/
+    width:  100%;/*aumenta lado*/
     height: 150px;
     background: black;
 
